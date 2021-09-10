@@ -9,3 +9,5 @@ Day 4 - Sep 6 - Hidden Widget              - hiddenwidget.netlify.app
 Day 5 - Sep 7 - Blurry Loading Home page   - blurload.netlify.app
 
 Day 6 - Sep 10 - Scroll Animation          - scrollanimae.netlify.app
+
+Day 7 - Sep 10 - Split landing page        - landingpagesplit.netlify.app

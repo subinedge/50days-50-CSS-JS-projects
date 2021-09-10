@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+button {
+  position: absolute;
+  font-size: 11px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+}
+
+.content {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content.left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 27, 187, 0.623);
+}
+
+.content.right::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 34, 0.623);
+}
+
+.left {
+  left: 0;
+  background-image: url("https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  right: 0;
+  background-image: url("https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wide-left .left {
+  width: 75%;
+}
+
+.wide-left .right {
+  width: 25%;
+}
+
+.wide-right .right {
+  width: 75%;
+}
+
+.wide-right .left {
+  width: 25%;
+}
+
+.left,
+.right,
+.left::before,
+.right::before {
+  transition: all 1s ease-in;
+}
