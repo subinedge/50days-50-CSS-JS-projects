@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  background-color: burlywood;
+  padding: 20px 40px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(70, 8, 240);
+}
+
+.form-control {
+  position: relative;
+  padding: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
+.form-control label {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.container button {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background-color: burlywood;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container button:hover {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  transform: translateY(-30px);
+}
