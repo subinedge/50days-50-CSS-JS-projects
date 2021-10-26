@@ -11,3 +11,9 @@ Day 5 - Sep 7 - Blurry Loading Home page   - blurload.netlify.app
 Day 6 - Sep 10 - Scroll Animation          - scrollanimae.netlify.app
 
 Day 7 - Sep 10 - Split landing page        - landingpagesplit.netlify.app
+
+Day 8 - Sep 10 - Login form animation      - 
+
+Day 9 - Oct 26 - Button click sound board  - button-click-sound-board.netlify.app
+
+Day 10 - Oct 26 - Dad Joke Generator       - webdadjoke.netlify.app
