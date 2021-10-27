@@ -19,3 +19,5 @@ Day 9 - Oct 26 - Button click sound board  - button-click-sound-board.netlify.ap
 Day 10 - Oct 26 - Dad Joke Generator       - webdadjoke.netlify.app
 
 Day 11 - Oct 26 - Event Key code           - keycodeevent.netlify.app
+
+Day 12 - Oct 27 - FAQ Accordian            - accordian-faq.netlify.app

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  border: 1px solid rgb(85, 85, 85);
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.faq.active {
+  background-color: rgb(216, 210, 130);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 7rem;
+  opacity: 0.2;
+}
+
+.faq.active::before {
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-answer {
+  margin-top: 20px;
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+.faq.active .faq-answer {
+  display: block;
+}
+
+.faq.active button .fa-chevron-down {
+  display: none;
+}
+
+.faq.active button .fa-times {
+  position: absolute;
+  top: 23%;
+  right: 20px;
+}
+
+.faq:not(.active) button .fa-times {
+  display: none;
+}
+
+.faq:not(.active) button {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
