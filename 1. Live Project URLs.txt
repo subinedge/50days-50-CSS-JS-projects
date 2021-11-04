@@ -27,3 +27,5 @@ Day 13 - Oct 29 - Random Choice Picker     - randomchoicepickerapp.netlify.app
 Day 14 - Oct 30 - Animated NavBar          - animatednavbarapp.netlify.app
 
 Day 15 - Oct 30 - Increment Counter        - incrementcounterapp.netlify.app
+
+Day 16 - Nov 04 - Water Intake Checker     - waterintakecheckerapp.netlify.app
