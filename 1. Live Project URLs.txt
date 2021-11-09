@@ -31,3 +31,5 @@ Day 15 - Oct 30 - Increment Counter        - incrementcounterapp.netlify.app
 Day 16 - Nov 04 - Water Intake Checker     - waterintakecheckerapp.netlify.app
 
 Day 17 - Nov 08 - Movie Database           - moviedatabaseapp.netlify.app
+
+Day 18 - Nov 09 - Background Slider        - backgroundsliderapp.netlify.app
